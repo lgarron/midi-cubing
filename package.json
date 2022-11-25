@@ -1,0 +1,15 @@
+{
+  "type": "module",
+  "devDependencies": {
+    "barely-a-dev-server": "^0.4.0",
+    "rome": "^10.0.1"
+  },
+  "scripts": {
+    "dev": "node script/dev.js",
+    "lint": "npx rome check ./src",
+    "format": "npx rome format ./src"
+  },
+  "dependencies": {
+    "cubing": "^0.33.3"
+  }
+}
